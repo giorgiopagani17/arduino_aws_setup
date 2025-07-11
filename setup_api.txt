@@ -1,0 +1,19 @@
+Step 1: Crea una API HTTP su API Gateway
+Vai su AWS Console → API Gateway.
+
+Clicca su Create API.
+
+Seleziona HTTP API (più semplice e moderno).
+
+Clicca su Build.
+
+Step 2: Definisci una route
+Nel campo Add integration, clicca su Add integration → scegli Lambda function.
+
+Seleziona la tua Lambda e clicca su Add.
+
+Nel campo Configure routes, clicca su Add route.
+
+Metti il metodo (es. GET) e il percorso (es. /misure).
+
+Associa la route alla Lambda cliccando su Attach integration → scegli la Lambda creata.
