@@ -1,0 +1,21 @@
+Step 1: Vai su AWS Lambda
+Apri la console AWS.
+
+Cerca e seleziona Lambda.
+
+Step 2: Crea una nuova funzione
+Clicca su Create function (Crea funzione).
+
+Scegli Author from scratch (Scrivi da zero).
+
+Inserisci un nome per la funzione, es. getDataGiorgio.
+
+Scegli il runtime Python (es. Python 3.9 o 3.10).
+
+Scegli o crea un ruolo di esecuzione (IAM Role):
+
+Puoi usare il ruolo di base Create a new role with basic Lambda permissions.
+
+Clicca su Create function.
+
+Step 3: Scrivi il codice della funzione
