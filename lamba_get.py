@@ -5,7 +5,7 @@ athena = boto3.client('athena')
 
 DATABASE = 'iot_dati'
 TABLE = 'misure'
-S3_OUTPUT = 's3://giorgioscemo/'
+S3_OUTPUT = 's3://nomebucket/'
 
 def lambda_handler(event, context):
     query = f"SELECT * FROM {TABLE} ORDER BY timestamp DESC LIMIT 100;"
